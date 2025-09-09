@@ -28,40 +28,7 @@ const About = () => {
               to help build & scale their businesses. Along the journey I realised my passion existed in 
               helping others excel and pursue their dreams as upcoming developers. Hence mentoring and teaching how to code.
             </p>
-            <div className="flex gap-4">
-              <a 
-                href="https://github.com/Carson-jpg" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 bg-gray-800 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
-              >
-                <Github size={20} />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/Carson%20De%20Galyan" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a 
-                href="https://www.twitter.com/Carson%20De%20Galyan" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 bg-blue-400 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
-              >
-                <Twitter size={20} />
-              </a>
-              <a 
-                href="https://www.facebook.com/Carson%20De%20Galyan" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 bg-blue-800 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
-              >
-                <Facebook size={20} />
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
