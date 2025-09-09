@@ -1,0 +1,72 @@
+
+import React from 'react';
+import { Github, Linkedin, Twitter, Facebook } from 'lucide-react';
+
+const About = () => {
+  return (
+    <section id="about" className="py-20 bg-gray-100">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="lg:w-1/2 flex justify-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-600 rounded-2xl blur-2xl opacity-20"></div>
+              <img
+                src="/carson-uploads/27994c70-9c9f-496b-90fc-805e2d16bb89.png"
+                alt="Meshack Isava"
+                className="relative w-96 h-96 object-cover rounded-2xl shadow-2xl"
+              />
+            </div>
+          </div>
+          <div className="lg:w-1/2">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+              About <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">Me</span>
+            </h1>
+            <h3 className="text-xl font-semibold text-gray-700 mb-4">Hello! I'm Meshack Isava.</h3>
+            <p className="text-gray-600 leading-relaxed mb-8 text-lg">
+              Hi there! I am Meshack! You might also know me as Javascript Developer. I've been programming 
+              for over 2 years now as a Full Stack developer. I've worked both with startups and individuals 
+              to help build & scale their businesses. Along the journey I realised my passion existed in 
+              helping others excel and pursue their dreams as upcoming developers. Hence mentoring and teaching how to code.
+            </p>
+            <div className="flex gap-4">
+              <a 
+                href="https://github.com/Carson-jpg" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-gray-800 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
+              >
+                <Github size={20} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/Carson%20De%20Galyan" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
+              >
+                <Linkedin size={20} />
+              </a>
+              <a 
+                href="https://www.twitter.com/Carson%20De%20Galyan" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-blue-400 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
+              >
+                <Twitter size={20} />
+              </a>
+              <a 
+                href="https://www.facebook.com/Carson%20De%20Galyan" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-12 h-12 bg-blue-800 text-white rounded-full hover:bg-cyan-400 hover:text-gray-900 transition-all duration-200 transform hover:scale-110"
+              >
+                <Facebook size={20} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
